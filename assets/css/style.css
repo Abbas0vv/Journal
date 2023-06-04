@@ -4,8 +4,11 @@
     height: 70px;
     background-color: #333;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    position: fixed;
+    width: 100%;
 }
+
 
 .logo {
     padding: 18px 18px 18px 0px;
@@ -31,3 +34,35 @@
     margin: 0px 30px 0px 20px;
 }   
 
+main {
+    background-image: url("../photos/Second-section-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 885px;
+}
+
+main .text-div {
+    justify-content: center;
+}
+
+main .text-div h2 {
+    font-size: 150px;
+    margin: 230px 0px 0px 990px;
+    color: white;
+}
+
+main .text-div span {
+    font-size: 90px;
+    background-color: yellow;
+    color: black;
+}
+
+.catagories-div {
+    justify-content: center;
+}
+
+.catagories-photo {
+    margin-top: 120px;
+    height: 210px;
+    width: 350px;
+}
