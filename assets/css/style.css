@@ -1,0 +1,33 @@
+@import "./global.css";
+
+.header-section {
+    height: 70px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center
+}
+
+.logo {
+    padding: 18px 18px 18px 0px;
+    margin-right: 40px; 
+}
+
+.list-icons{
+    color: #A5A5A5;
+    padding: 5px;
+    font-size: 24px;
+    margin-left: 25px;
+}
+
+.fa-cart-shopping {
+    margin-left: 90px;
+}
+
+.search-bar input {
+    width: 800px;
+    height: 40px;
+    background-color: #A5A5A5;
+    border-color: rgba(113,155,252,1);
+    margin: 0px 30px 0px 20px;
+}   
+
