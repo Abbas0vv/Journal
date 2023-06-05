@@ -1,5 +1,9 @@
 @import "./global.css";
 
+body {
+    background-color: black;
+}
+
 .header-section {
     height: 70px;
     background-color: #333;
@@ -42,12 +46,13 @@ main {
 }
 
 main .text-div {
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 150px; 
 }
 
 main .text-div h2 {
     font-size: 150px;
-    margin: 230px 0px 0px 990px;
     color: white;
 }
 
